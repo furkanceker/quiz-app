@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Developer Testi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <h2 class="baslik">Web Developer Sınavı</h2>
+    <button class="start-quiz-btn">Teste Başla</button>
+    <div class="container">
+        <div class="top-bar">
+            <div class="question-counter">
+
+            </div>
+            <div class="timer">
+                <span><i class="fa-regular fa-clock"></i></span>
+                <span class="time-left">15</span>
+            </div>
+            <div class="time_line"></div>
+        </div>
+
+        <div class="ques-text">
+
+        </div>
+
+        <div class="option-div">
+
+        </div>
+
+        <button class="next-ques-btn click-disable">Sıradaki Soru</button>
+    </div>
+
+    <div class="result-div">
+        <i class="fa-solid fa-crown"></i>
+        <span>Testi Tamamladın!</span>
+    <div class="score">
+
+    </div>
+    <button class="replay-quiz-btn" onclick="location.reload()">Tekrar Başla</button>
+    </div>
+    <script src="script.js"></script>
+    <script src="questions.js"></script>
+</body>
+</html>
